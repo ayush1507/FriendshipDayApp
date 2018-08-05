@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:verticalScrollbarPosition="right">
+
+    <LinearLayout
+        android:id="@+id/friends_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20sp">
+
+
+        <RelativeLayout
+            android:id="@+id/akshit_profile"
+            android:layout_width="268dp"
+            android:layout_height="297dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_border"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="204dp"
+                android:layout_height="181dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/akshitsir" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="47dp"
+                android:fontFamily="cursive"
+                android:text="Akshit.Udacity"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="#MENTOR"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/alok_profile"
+            android:layout_width="268dp"
+            android:layout_height="297dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/background_border"
+            android:padding="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="204dp"
+                android:layout_height="181dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/alok" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="47dp"
+                android:fontFamily="cursive"
+                android:text="Alok Shukla"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="#BRO"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bhavesh_profile"
+            android:layout_width="268dp"
+            android:layout_height="297dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/background_border"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="204dp"
+                android:layout_height="181dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/bhavesh" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="47dp"
+                android:fontFamily="cursive"
+                android:text="Bhavesh Tolia"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="#BUDDY"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/deepam_profile"
+            android:layout_width="268dp"
+            android:layout_height="297dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/background_border"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="204dp"
+                android:layout_height="181dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/deepam" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="47dp"
+                android:fontFamily="cursive"
+                android:text="Deepam Goel"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="#DONUT_BUDDY"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/divya_profile"
+            android:layout_width="268dp"
+            android:layout_height="297dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/background_border"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="204dp"
+                android:layout_height="181dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/divya" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="47dp"
+                android:fontFamily="cursive"
+                android:text="Divya Thakur"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="cursive"
+
+                android:text="#YOUTUBER"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

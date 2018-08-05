@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress ALL -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- This is the stroke you want to define -->
+    <!--suppress AndroidElementNotAllowed -->
+    <stroke
+        android:width="2dp"
+        android:color="#000" />
+
+    <!-- Optional, round your corners -->
+    <!--suppress AndroidElementNotAllowed -->
+    <corners
+        android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp"
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp" />
+
+    
+    <gradient
+        android:angle="90"
+        android:endColor="#fff"
+        android:startColor="#ff616f" />
+</shape>
